@@ -1,0 +1,120 @@
+header{ 
+    background: rgb(27, 27, 27) url(https://images.pexels.com/photos/1028223/pexels-photo-1028223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 40px;
+   }
+
+   #image_small {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+   }
+
+   #image_large{
+    border-radius: 50%;
+    height: 200px;
+
+   }
+
+   #profile_image{
+    border-radius: 50%;
+    height: 200px;
+   }
+
+    footer{
+       background-color: rgb(173, 173, 173);
+       text-align: center;
+       padding-top: 20px;
+       padding-bottom: 20px;
+   }
+
+   .col-sm-10{
+      padding-top: 20px;
+      padding-left: 20px;
+   }
+
+   .col-sm-2{
+    padding-top: 20px;
+    padding-left: 20px;
+   }
+
+   .icons {
+    width: 30px;
+    padding: 5px;
+    
+}
+
+p, li{
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 14pt;
+}
+
+h3{
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 16pt;
+}
+
+h2{
+    font-family: poppins;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18pt;
+}
+
+h1{
+    font-family: poppins;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-size: 24pt;
+}
+
+.grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+      }
+
+.grid-item{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+    }
+
+    .grid-item{
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+}    
+
+@media only screen and (max-width: 550px) {
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+}
+
+.grid-item{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+}       
